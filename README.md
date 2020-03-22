@@ -9,6 +9,9 @@ This project documents AWS infrastructure of the `hilfstelefon` project. The pro
 * Route 53
 * RDS (PostgreSQL)
 
+## Overview
+![Infra overview image](img/overview.png)
+
 ## S3
 The [frontend project](https://github.com/Hilfstelefon-WirVsVirus/hilfstelefon-frontend) is hosted on a S3 bucket. The bucket is exposed publicly via CloudFront. Assets are deployed via github actions, triggered on release creation.
 
